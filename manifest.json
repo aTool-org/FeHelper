@@ -1,0 +1,39 @@
+{
+   "name": "__MSG_extName__",
+   "description": "__MSG_extDesp__",
+   "default_locale": "zh_CN",
+   "background": {
+      "scripts": [ "/res/js/background.js" ]
+   },
+   "web_accessible_resources": [
+      "res/css/json.css",
+      "res/img/json-down.png"
+  ],
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [
+         "/res/js/jquery-1.5.min.js",
+         "/res/js/json-format-dealer.js",
+         "/res/js/json-format-ent.js",
+         "/res/js/json_format.js"
+      ],
+      "matches": [ "http://*/*", "https://*/*", "file://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "icons": {
+      "128": "/res/img/icon.png",
+      "64": "/res/img/icon.png",
+      "32": "/res/img/icon.png",
+      "16": "/res/img/icon.png"
+   },
+   "manifest_version": 2,
+   "browser_action": {
+      "default_icon": {
+         "19": "res/img/icon.png",
+         "38": "res/img/icon.png"
+      }
+   },
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "file://*/*", "storage" ],
+   "version": "1.0.0",
+   "homepage_url": "http://json.hust.cc/"
+}

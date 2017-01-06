@@ -1,0 +1,8 @@
+{
+   "extDesp": {
+      "message": "一个非常简单的 Chrome 插件，用于将 JSON 接口返回值格式化成可读方式，并且可以点击图标关闭插件，保证最低资源占用。"
+   },
+   "extName": {
+      "message": "Json 格式化"
+   }
+}

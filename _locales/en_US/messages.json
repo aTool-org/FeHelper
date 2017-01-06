@@ -1,0 +1,8 @@
+{
+   "extDesp": {
+      "message": "Simple chrome plugin to format JSON request or url."
+   },
+   "extName": {
+      "message": "Json Format"
+   }
+}
