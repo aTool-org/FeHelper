@@ -1,9 +1,9 @@
 #jfContent{-webkit-user-select:text;margin:0;}
 #optionBar{-webkit-user-select:none;display:block;position:absolute;top:0px;right:0px}
-#buttonFormatted,#buttonPlain,#btnDownload,#buttonCollapseAll{-webkit-border-radius:2px;-webkit-box-shadow:0px 1px 3px rgba(0,0,0,0.1);
+#buttonFormatted,#buttonPlain,#btnDownload,#buttonCollapseAll, #buttonOnlineFormat{-webkit-border-radius:2px;-webkit-box-shadow:0px 1px 3px rgba(0,0,0,0.1);
     -webkit-user-select:none;background:-webkit-linear-gradient(#fafafa, #f4f4f4 40%, #e5e5e5);outline: none;
     border:1px solid #aaa;color:#444;font-size:12px;margin-bottom:0px;min-width:4em;padding:3px 0;
-    position:relative;z-index:10;display:inline-block;width:80px;
+    position:relative;z-index:10;display:inline-block;width:80px;text-align:center;
     text-shadow:1px 1px rgba(255,255,255,0.3)}
 #buttonCollapseAll{margin-left:0;border-top-left-radius:0;border-bottom-left-radius:0;border-left:0;}
 #buttonFormatted{margin-right:0;border-top-right-radius:0;border-bottom-right-radius:0;border-right:none}
@@ -11,10 +11,17 @@
     padding: 4px 10px;
     text-decoration: none;
     color: #454545;
-    margin-right: 10px;
+    margin-right: 5px;
     display: inline-block;
 }
-#buttonFormatted:hover,#buttonPlain:hover,#btnDownload:hover{-webkit-box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+#buttonOnlineFormat {
+    margin-left: 5px;
+    width: 60px;
+    text-decoration: none;
+    color: #454545;
+    display: inline-block;
+}
+#buttonFormatted:hover,#buttonPlain:hover,#btnDownload:hover,#buttonOnlineFormat:hover{-webkit-box-shadow:0px 1px 3px rgba(0,0,0,0.2);
     background:#ebebeb -webkit-linear-gradient(#fefefe, #f8f8f8 40%, #e9e9e9);border-color:#999;color:#222}
 #buttonFormatted:active,#buttonPlain:active{-webkit-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.2);
     background:#ebebeb -webkit-linear-gradient(#f4f4f4, #efefef 40%, #dcdcdc);color:#333}
@@ -108,7 +115,4 @@ html body {
     margin-top: 10px;
     float: left;
     color: #f00;
-}
-#btnDownload{
-    width: 102px;
 }

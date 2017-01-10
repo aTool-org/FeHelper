@@ -80,13 +80,18 @@ var JsonFormatEntrance = (function () {
 
                 // Create toggleFormat button
                 var buttonFormatted = document.createElement('button'),
-                    buttonCollapseAll = document.createElement('button');
+                    buttonCollapseAll = document.createElement('button'),
+                    buttonOnlineFormat = document.createElement('a');
                 buttonFormatted.id = 'buttonFormatted';
                 buttonFormatted.innerText = '格式化';
                 buttonFormatted.classList.add('selected');
                 buttonCollapseAll.id = 'buttonCollapseAll';
                 buttonCollapseAll.innerText = '折叠所有';
 
+                buttonOnlineFormat.id = 'buttonOnlineFormat';
+                buttonOnlineFormat.target = '_blank';
+                buttonOnlineFormat.href = 'http://json.hust.cc/';
+                buttonOnlineFormat.innerText = '在线';
                 var plainOn = false;
                 buttonFormatted.addEventListener('click', function () {
                     // When formatted button clicked...
@@ -129,6 +134,7 @@ var JsonFormatEntrance = (function () {
                 // Put it in optionBar
                 optionBar.appendChild(buttonFormatted);
                 optionBar.appendChild(buttonCollapseAll);
+                optionBar.appendChild(buttonOnlineFormat);
 
                 // Attach event handlers
                 document.addEventListener('click', generalClick, false);
