@@ -90,7 +90,7 @@ var JsonFormatEntrance = (function () {
 
                 buttonOnlineFormat.id = 'buttonOnlineFormat';
                 buttonOnlineFormat.target = '_blank';
-                buttonOnlineFormat.href = 'http://json.hust.cc/';
+                buttonOnlineFormat.href = 'https://atool.vip/json';
                 buttonOnlineFormat.innerText = '在线';
                 var plainOn = false;
                 buttonFormatted.addEventListener('click', function () {
