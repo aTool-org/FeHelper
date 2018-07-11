@@ -34,6 +34,6 @@
       }
    },
    "permissions": [ "tabs", "http://*/*", "https://*/*", "file://*/*", "storage" ],
-   "version": "1.0.1",
-   "homepage_url": "http://json.hust.cc/"
+   "version": "1.0.2",
+   "homepage_url": "https://atool.vip/json"
 }
