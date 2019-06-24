@@ -6,4 +6,4 @@ JSON 格式化 Chrome 插件，精简自 FeHelper 。
 
 ![screenshot](screenshot/1.png)
 
-Json 格式化在线版本：[https://atool.vip/json](https://atool.vip/json)
+Json 格式化在线版本：[https://atool.vip/#json](https://atool.vip/#json)
